@@ -1,0 +1,77 @@
+header{
+    background-color: black;
+}
+
+.menu {
+    background-color: #830000;
+    font-weight: 6px;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+#fone {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+header a {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#carrinho {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-top: 55px;
+}
+
+#logo {
+    left: 133.82px;
+    top: -16px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-right: 410px;
+}
+
+.avatar2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+#logodoavatar {
+    width: 356px;
+    height: 90px;
+}
+
+#login {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 27px;
+    color: #FFFFFF;
+    
+}
+
+.menu_top {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: flex-end;
+}
