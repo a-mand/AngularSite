@@ -1,16 +1,13 @@
 
-       /* CABEÇALHO (LOGO E ICONS) *\
-
-#carr {
-    height: 629px;
-    width: 1402px;
-
+#carr1, #carr2, #carr3 {
+    opacity: 0.4;
 }
 
 #carouselExampleSlidesOnly {
     position: relative;
     bottom: 16px;
 }
+
 
             /* DESTAQUES E PRODUTOS */
 
@@ -37,28 +34,38 @@ body {
    position: relative;
    justify-content: space-around;
    align-items: center;
-   margin-top: 50px;
-   
+   margin-top: 90px;
+   margin-left: 190px;
+   margin-right: 100px;
+}
+
+#telephone-class {
+    margin-right: 50px;
 }
 
 #notebook-class {
-    margin-right: 70px;
+    margin-right: 50px;
 }
 
 #pagina2-class {
-    margin-right: 70px;
+    margin-right: 50px;
 }
 
 #headphone-class {
-    margin-right: 70px;
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+#mouse {
+    margin-right: 50px;
 }
 
 #seta1 {
-    margin-right: 270px;
+    margin-right: 350px;
 }
 
 #seta2 {
-    margin-left: 270px;
+    margin-left: 150px;
 }
 
              /* SESSAO DE VEJA MAI ATIVIDADES */
@@ -67,56 +74,40 @@ body {
     margin-top: 70px;
     color: #FFFFFF;
     padding: 20px;
-    font-size: 65px;
+    font-size: 55px;
     display: flex;
     justify-content: space-around;
    align-items: center;
 }
 
+.imagem3:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#quadvermelho:hover {
+    color: #830000;
+}
+
 #quadvermelho {
     background-color: #830000;
-    width: 400.98px;
-    height: 259.5px;
+    width: 370px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
+    bottom: 50px;
+    margin-top: 50px;
+    
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#bannerpromo {
+    margin-top: 80px;
 }
 
             /* SESSAO PESQUISA E REDES SOCIAIS */
-
-#campodebusca {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-#pesquisa {
-    position: absolute;
-    width: 684px;
-    height: 44.91px;   
-    background: rgba(255, 255, 255, 0.58);
-    border-radius: 50px;
-}
-
-#pesquisa::placeholder {
-    color: #FFFFFF;
-    padding: 12px 16px 14px;
-    text-decoration: underline;
-}
-
-.inpt {
-    border: none;   
-    padding: 5px 240px;
-    font-size: 20px;
-    text-align: left;
-}
-
-#busca {
-    margin-left: 620px;
-    font-weight: 400;
-}
 
 #tituloredes {
     background-color: #830000;
@@ -129,6 +120,15 @@ body {
     justify-content: center;
     margin-left: 320px;
     font-size: 38px;
+}
+
+#facerede, #instarede, #twitterede, #youturede{
+    transition: all .5s;
+    border: 30px solid transparent;
+}
+#facerede:hover, #instarede:hover, #twitterede:hover, #youturede:hover {
+    border: 7px solid #ffffff;
+    border-radius: 70%;
 }
 
 .imagensredes {
@@ -163,7 +163,7 @@ body {
     position: absolute;
     color: #FFFFFF;
     font-size: 50px;
-    margin-top: 58px;
+    margin-top: 75px;
     margin-left: 60px;
 }
 
@@ -209,13 +209,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 100px;
 
     font-size: 45px;
 }
 
 #text {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 40px;
@@ -226,4 +226,5 @@ body {
 #baner2 {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }

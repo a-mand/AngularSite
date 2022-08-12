@@ -2,13 +2,13 @@
             /* RODAPE */
 
             footer{
+                position: relative;
                 background-color: #242424;
             }
             
             .divfooter {
                 height: 513.72px;
                 margin-top: -16px;
-                left: 0px;
                 
                 background: linear-gradient(180deg, #830000 0%, rgba(131, 0, 0, 0) 100%);
             }

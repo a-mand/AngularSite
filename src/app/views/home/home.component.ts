@@ -20,6 +20,7 @@ export class HomeComponent implements OnInit {
     Nome: ${form.value.nome}
     Email: ${form.value.email}`;
 
+    alert(`Seu Cadastro foi realizado com suscesso! Seja bem vindo(a) ${form.value.nome}`)
     console.log(dados)
   }
 
